@@ -1,0 +1,575 @@
+{
+  "fase": "1",
+  "tokens": [
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 1,
+      "coluna": 1
+    },
+    {
+      "tipo": "REAL_LITERAL",
+      "valor": 0.5,
+      "linha": 1,
+      "coluna": 2
+    },
+    {
+      "tipo": "ID",
+      "valor": "X",
+      "linha": 1,
+      "coluna": 6
+    },
+    {
+      "tipo": "MEM",
+      "valor": "MEM",
+      "linha": 1,
+      "coluna": 8
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 1,
+      "coluna": 11
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 4,
+      "coluna": 1
+    },
+    {
+      "tipo": "REAL_LITERAL",
+      "valor": 1.0,
+      "linha": 4,
+      "coluna": 2
+    },
+    {
+      "tipo": "ID",
+      "valor": "SOMA",
+      "linha": 4,
+      "coluna": 6
+    },
+    {
+      "tipo": "MEM",
+      "valor": "MEM",
+      "linha": 4,
+      "coluna": 11
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 4,
+      "coluna": 14
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 8,
+      "coluna": 1
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 8,
+      "coluna": 2
+    },
+    {
+      "tipo": "ID",
+      "valor": "X",
+      "linha": 8,
+      "coluna": 3
+    },
+    {
+      "tipo": "ID",
+      "valor": "X",
+      "linha": 8,
+      "coluna": 5
+    },
+    {
+      "tipo": "MULT",
+      "valor": "*",
+      "linha": 8,
+      "coluna": 7
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 8,
+      "coluna": 8
+    },
+    {
+      "tipo": "ID",
+      "valor": "X2",
+      "linha": 8,
+      "coluna": 10
+    },
+    {
+      "tipo": "MEM",
+      "valor": "MEM",
+      "linha": 8,
+      "coluna": 13
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 8,
+      "coluna": 16
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 9,
+      "coluna": 1
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 9,
+      "coluna": 2
+    },
+    {
+      "tipo": "ID",
+      "valor": "X2",
+      "linha": 9,
+      "coluna": 3
+    },
+    {
+      "tipo": "REAL_LITERAL",
+      "valor": 2.0,
+      "linha": 9,
+      "coluna": 6
+    },
+    {
+      "tipo": "DIV_REAL",
+      "valor": "|",
+      "linha": 9,
+      "coluna": 10
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 9,
+      "coluna": 11
+    },
+    {
+      "tipo": "ID",
+      "valor": "T2",
+      "linha": 9,
+      "coluna": 13
+    },
+    {
+      "tipo": "MEM",
+      "valor": "MEM",
+      "linha": 9,
+      "coluna": 16
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 9,
+      "coluna": 19
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 10,
+      "coluna": 1
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 10,
+      "coluna": 2
+    },
+    {
+      "tipo": "ID",
+      "valor": "SOMA",
+      "linha": 10,
+      "coluna": 3
+    },
+    {
+      "tipo": "ID",
+      "valor": "T2",
+      "linha": 10,
+      "coluna": 8
+    },
+    {
+      "tipo": "MINUS",
+      "valor": "-",
+      "linha": 10,
+      "coluna": 11
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 10,
+      "coluna": 12
+    },
+    {
+      "tipo": "ID",
+      "valor": "SOMA",
+      "linha": 10,
+      "coluna": 14
+    },
+    {
+      "tipo": "MEM",
+      "valor": "MEM",
+      "linha": 10,
+      "coluna": 19
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 10,
+      "coluna": 22
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 14,
+      "coluna": 1
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 14,
+      "coluna": 2
+    },
+    {
+      "tipo": "ID",
+      "valor": "X2",
+      "linha": 14,
+      "coluna": 3
+    },
+    {
+      "tipo": "ID",
+      "valor": "X2",
+      "linha": 14,
+      "coluna": 6
+    },
+    {
+      "tipo": "MULT",
+      "valor": "*",
+      "linha": 14,
+      "coluna": 9
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 14,
+      "coluna": 10
+    },
+    {
+      "tipo": "ID",
+      "valor": "X4",
+      "linha": 14,
+      "coluna": 12
+    },
+    {
+      "tipo": "MEM",
+      "valor": "MEM",
+      "linha": 14,
+      "coluna": 15
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 14,
+      "coluna": 18
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 15,
+      "coluna": 1
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 15,
+      "coluna": 2
+    },
+    {
+      "tipo": "ID",
+      "valor": "X4",
+      "linha": 15,
+      "coluna": 3
+    },
+    {
+      "tipo": "REAL_LITERAL",
+      "valor": 24.0,
+      "linha": 15,
+      "coluna": 6
+    },
+    {
+      "tipo": "DIV_REAL",
+      "valor": "|",
+      "linha": 15,
+      "coluna": 11
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 15,
+      "coluna": 12
+    },
+    {
+      "tipo": "ID",
+      "valor": "T4",
+      "linha": 15,
+      "coluna": 14
+    },
+    {
+      "tipo": "MEM",
+      "valor": "MEM",
+      "linha": 15,
+      "coluna": 17
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 15,
+      "coluna": 20
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 16,
+      "coluna": 1
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 16,
+      "coluna": 2
+    },
+    {
+      "tipo": "ID",
+      "valor": "SOMA",
+      "linha": 16,
+      "coluna": 3
+    },
+    {
+      "tipo": "ID",
+      "valor": "T4",
+      "linha": 16,
+      "coluna": 8
+    },
+    {
+      "tipo": "PLUS",
+      "valor": "+",
+      "linha": 16,
+      "coluna": 11
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 16,
+      "coluna": 12
+    },
+    {
+      "tipo": "ID",
+      "valor": "SOMA",
+      "linha": 16,
+      "coluna": 14
+    },
+    {
+      "tipo": "MEM",
+      "valor": "MEM",
+      "linha": 16,
+      "coluna": 19
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 16,
+      "coluna": 22
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 20,
+      "coluna": 1
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 20,
+      "coluna": 2
+    },
+    {
+      "tipo": "ID",
+      "valor": "X4",
+      "linha": 20,
+      "coluna": 3
+    },
+    {
+      "tipo": "ID",
+      "valor": "X2",
+      "linha": 20,
+      "coluna": 6
+    },
+    {
+      "tipo": "MULT",
+      "valor": "*",
+      "linha": 20,
+      "coluna": 9
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 20,
+      "coluna": 10
+    },
+    {
+      "tipo": "ID",
+      "valor": "X6",
+      "linha": 20,
+      "coluna": 12
+    },
+    {
+      "tipo": "MEM",
+      "valor": "MEM",
+      "linha": 20,
+      "coluna": 15
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 20,
+      "coluna": 18
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 21,
+      "coluna": 1
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 21,
+      "coluna": 2
+    },
+    {
+      "tipo": "ID",
+      "valor": "X6",
+      "linha": 21,
+      "coluna": 3
+    },
+    {
+      "tipo": "REAL_LITERAL",
+      "valor": 720.0,
+      "linha": 21,
+      "coluna": 6
+    },
+    {
+      "tipo": "DIV_REAL",
+      "valor": "|",
+      "linha": 21,
+      "coluna": 12
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 21,
+      "coluna": 13
+    },
+    {
+      "tipo": "ID",
+      "valor": "T6",
+      "linha": 21,
+      "coluna": 15
+    },
+    {
+      "tipo": "MEM",
+      "valor": "MEM",
+      "linha": 21,
+      "coluna": 18
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 21,
+      "coluna": 21
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 22,
+      "coluna": 1
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 22,
+      "coluna": 2
+    },
+    {
+      "tipo": "ID",
+      "valor": "SOMA",
+      "linha": 22,
+      "coluna": 3
+    },
+    {
+      "tipo": "ID",
+      "valor": "T6",
+      "linha": 22,
+      "coluna": 8
+    },
+    {
+      "tipo": "MINUS",
+      "valor": "-",
+      "linha": 22,
+      "coluna": 11
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 22,
+      "coluna": 12
+    },
+    {
+      "tipo": "ID",
+      "valor": "SOMA",
+      "linha": 22,
+      "coluna": 14
+    },
+    {
+      "tipo": "MEM",
+      "valor": "MEM",
+      "linha": 22,
+      "coluna": 19
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 22,
+      "coluna": 22
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 24,
+      "coluna": 1
+    },
+    {
+      "tipo": "ID",
+      "valor": "SOMA",
+      "linha": 24,
+      "coluna": 2
+    },
+    {
+      "tipo": "PRINT",
+      "valor": "PRINT",
+      "linha": 24,
+      "coluna": 7
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 24,
+      "coluna": 12
+    }
+  ]
+}

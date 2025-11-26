@@ -1,0 +1,227 @@
+{
+  "fase": "1",
+  "tokens": [
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 3,
+      "coluna": 1
+    },
+    {
+      "tipo": "INT_LITERAL",
+      "valor": 8,
+      "linha": 3,
+      "coluna": 2
+    },
+    {
+      "tipo": "ID",
+      "valor": "N",
+      "linha": 3,
+      "coluna": 4
+    },
+    {
+      "tipo": "MEM",
+      "valor": "MEM",
+      "linha": 3,
+      "coluna": 6
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 3,
+      "coluna": 9
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 4,
+      "coluna": 1
+    },
+    {
+      "tipo": "INT_LITERAL",
+      "valor": 1,
+      "linha": 4,
+      "coluna": 2
+    },
+    {
+      "tipo": "ID",
+      "valor": "RESULT",
+      "linha": 4,
+      "coluna": 4
+    },
+    {
+      "tipo": "MEM",
+      "valor": "MEM",
+      "linha": 4,
+      "coluna": 11
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 4,
+      "coluna": 14
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 5,
+      "coluna": 1
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 5,
+      "coluna": 2
+    },
+    {
+      "tipo": "ID",
+      "valor": "N",
+      "linha": 5,
+      "coluna": 3
+    },
+    {
+      "tipo": "INT_LITERAL",
+      "valor": 1,
+      "linha": 5,
+      "coluna": 5
+    },
+    {
+      "tipo": "GT",
+      "valor": ">",
+      "linha": 5,
+      "coluna": 7
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 5,
+      "coluna": 8
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 5,
+      "coluna": 10
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 5,
+      "coluna": 11
+    },
+    {
+      "tipo": "ID",
+      "valor": "RESULT",
+      "linha": 5,
+      "coluna": 12
+    },
+    {
+      "tipo": "ID",
+      "valor": "N",
+      "linha": 5,
+      "coluna": 19
+    },
+    {
+      "tipo": "MULT",
+      "valor": "*",
+      "linha": 5,
+      "coluna": 21
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 5,
+      "coluna": 22
+    },
+    {
+      "tipo": "ID",
+      "valor": "RESULT",
+      "linha": 5,
+      "coluna": 24
+    },
+    {
+      "tipo": "MEM",
+      "valor": "MEM",
+      "linha": 5,
+      "coluna": 31
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 5,
+      "coluna": 35
+    },
+    {
+      "tipo": "ID",
+      "valor": "N",
+      "linha": 5,
+      "coluna": 36
+    },
+    {
+      "tipo": "INT_LITERAL",
+      "valor": 1,
+      "linha": 5,
+      "coluna": 38
+    },
+    {
+      "tipo": "MINUS",
+      "valor": "-",
+      "linha": 5,
+      "coluna": 40
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 5,
+      "coluna": 41
+    },
+    {
+      "tipo": "ID",
+      "valor": "N",
+      "linha": 5,
+      "coluna": 43
+    },
+    {
+      "tipo": "MEM",
+      "valor": "MEM",
+      "linha": 5,
+      "coluna": 45
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 5,
+      "coluna": 48
+    },
+    {
+      "tipo": "WHILE",
+      "valor": "WHILE",
+      "linha": 5,
+      "coluna": 50
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 5,
+      "coluna": 55
+    },
+    {
+      "tipo": "LPAREN",
+      "valor": "(",
+      "linha": 6,
+      "coluna": 1
+    },
+    {
+      "tipo": "ID",
+      "valor": "RESULT",
+      "linha": 6,
+      "coluna": 2
+    },
+    {
+      "tipo": "RPAREN",
+      "valor": ")",
+      "linha": 6,
+      "coluna": 8
+    }
+  ]
+}

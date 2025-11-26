@@ -1,0 +1,25 @@
+
+(0.5 X MEM)
+
+// Termo 1: 1.0
+(1.0 SOMA MEM)
+
+// Termo 2: -x^2/2! = -x^2/2
+
+((X X *) X2 MEM)
+((X2 2.0 |) T2 MEM)
+((SOMA T2 -) SOMA MEM)
+
+// Termo 3: +x^4/4! = +x^4/24
+
+((X2 X2 *) X4 MEM)
+((X4 24.0 |) T4 MEM)
+((SOMA T4 +) SOMA MEM)
+
+// Termo 4: -x^6/6! = -x^6/720
+
+((X4 X2 *) X6 MEM)
+((X6 720.0 |) T6 MEM)
+((SOMA T6 -) SOMA MEM)
+
+(SOMA PRINT)

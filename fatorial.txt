@@ -1,0 +1,6 @@
+// Entrada: N = 8
+
+(8 N MEM)
+(1 RESULT MEM)
+((N 1 >) ((RESULT N *) RESULT MEM (N 1 -) N MEM) WHILE)
+(RESULT)

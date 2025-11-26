@@ -1,0 +1,7 @@
+// Fibonacci - primeiros 24 números
+
+(0 A MEM)
+(1 B MEM)
+(0 I MEM)
+(24 LIMIT MEM)
+((I LIMIT <) (A PRINT (A B +) TEMP MEM (B A MEM) (TEMP B MEM) (I 1 +) I MEM) WHILE)

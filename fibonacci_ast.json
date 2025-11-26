@@ -1,0 +1,223 @@
+{
+  "fase": "2",
+  "arvores": [
+    {
+      "linha": 4,
+      "ast": {
+        "tipo": "MEM",
+        "valor": "A",
+        "tipo_dado": "int",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "LITERAL",
+            "valor": 0,
+            "tipo_dado": "int",
+            "operador": "",
+            "filhos": []
+          }
+        ]
+      }
+    },
+    {
+      "linha": 5,
+      "ast": {
+        "tipo": "MEM",
+        "valor": "B",
+        "tipo_dado": "int",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "LITERAL",
+            "valor": 1,
+            "tipo_dado": "int",
+            "operador": "",
+            "filhos": []
+          }
+        ]
+      }
+    },
+    {
+      "linha": 6,
+      "ast": {
+        "tipo": "MEM",
+        "valor": "I",
+        "tipo_dado": "int",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "LITERAL",
+            "valor": 0,
+            "tipo_dado": "int",
+            "operador": "",
+            "filhos": []
+          }
+        ]
+      }
+    },
+    {
+      "linha": 7,
+      "ast": {
+        "tipo": "MEM",
+        "valor": "LIMIT",
+        "tipo_dado": "int",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "LITERAL",
+            "valor": 24,
+            "tipo_dado": "int",
+            "operador": "",
+            "filhos": []
+          }
+        ]
+      }
+    },
+    {
+      "linha": 8,
+      "ast": {
+        "tipo": "WHILE",
+        "valor": null,
+        "tipo_dado": "void",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "BINOP",
+            "valor": null,
+            "tipo_dado": "bool",
+            "operador": "<",
+            "filhos": [
+              {
+                "tipo": "ID",
+                "valor": "I",
+                "tipo_dado": "int",
+                "operador": "",
+                "filhos": []
+              },
+              {
+                "tipo": "ID",
+                "valor": "LIMIT",
+                "tipo_dado": "int",
+                "operador": "",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "tipo": "BLOCO",
+            "valor": null,
+            "tipo_dado": "void",
+            "operador": "",
+            "filhos": [
+              {
+                "tipo": "PRINT",
+                "valor": "A",
+                "tipo_dado": "void",
+                "operador": "",
+                "filhos": [
+                  {
+                    "tipo": "ID",
+                    "valor": "A",
+                    "tipo_dado": "int",
+                    "operador": "",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "tipo": "MEM",
+                "valor": "TEMP",
+                "tipo_dado": "int",
+                "operador": "",
+                "filhos": [
+                  {
+                    "tipo": "BINOP",
+                    "valor": null,
+                    "tipo_dado": "int",
+                    "operador": "+",
+                    "filhos": [
+                      {
+                        "tipo": "ID",
+                        "valor": "A",
+                        "tipo_dado": "int",
+                        "operador": "",
+                        "filhos": []
+                      },
+                      {
+                        "tipo": "ID",
+                        "valor": "B",
+                        "tipo_dado": "int",
+                        "operador": "",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tipo": "MEM",
+                "valor": "A",
+                "tipo_dado": "int",
+                "operador": "",
+                "filhos": [
+                  {
+                    "tipo": "ID",
+                    "valor": "B",
+                    "tipo_dado": "int",
+                    "operador": "",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "tipo": "MEM",
+                "valor": "B",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": [
+                  {
+                    "tipo": "ID",
+                    "valor": "TEMP",
+                    "tipo_dado": "real",
+                    "operador": "",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "tipo": "MEM",
+                "valor": "I",
+                "tipo_dado": "int",
+                "operador": "",
+                "filhos": [
+                  {
+                    "tipo": "BINOP",
+                    "valor": null,
+                    "tipo_dado": "int",
+                    "operador": "+",
+                    "filhos": [
+                      {
+                        "tipo": "ID",
+                        "valor": "I",
+                        "tipo_dado": "int",
+                        "operador": "",
+                        "filhos": []
+                      },
+                      {
+                        "tipo": "LITERAL",
+                        "valor": 1,
+                        "tipo_dado": "int",
+                        "operador": "",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

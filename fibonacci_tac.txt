@@ -1,0 +1,31 @@
+# TAC 
+# 25/11/2025 23:38:07
+
+    MEM[A] = 0
+    MEM[B] = 1
+    MEM[I] = 0
+    MEM[LIMIT] = 24
+; === INÍCIO WHILE ===
+WHILE_INICIO0:
+; --- Condição ---
+    t0 = MEM[I]
+    t1 = MEM[LIMIT]
+    t2 = t0 < t1
+    ifFalse t2 goto WHILE_FIM1
+; --- Corpo ---
+    t3 = MEM[A]
+    print t3
+    t4 = MEM[A]
+    t5 = MEM[B]
+    t6 = t4 + t5
+    MEM[TEMP] = t6
+    t7 = MEM[B]
+    MEM[A] = t7
+    t8 = MEM[TEMP]
+    MEM[B] = t8
+    t9 = MEM[I]
+    t10 = t9 + 1
+    MEM[I] = t10
+    goto WHILE_INICIO0
+WHILE_FIM1:
+; === FIM WHILE ===

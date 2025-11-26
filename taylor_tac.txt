@@ -1,0 +1,40 @@
+# TAC 
+# 25/11/2025 23:37:39
+
+    MEM[X] = 0.5
+    MEM[SOMA] = 1.0
+    t0 = MEM[X]
+    t1 = MEM[X]
+    t2 = t0 * t1
+    MEM[X2] = t2
+    t3 = MEM[X2]
+    t4 = t3 | 2.0
+    MEM[T2] = t4
+    t5 = MEM[SOMA]
+    t6 = MEM[T2]
+    t7 = t5 - t6
+    MEM[SOMA] = t7
+    t8 = MEM[X2]
+    t9 = MEM[X2]
+    t10 = t8 * t9
+    MEM[X4] = t10
+    t11 = MEM[X4]
+    t12 = t11 | 24.0
+    MEM[T4] = t12
+    t13 = MEM[SOMA]
+    t14 = MEM[T4]
+    t15 = t13 + t14
+    MEM[SOMA] = t15
+    t16 = MEM[X4]
+    t17 = MEM[X2]
+    t18 = t16 * t17
+    MEM[X6] = t18
+    t19 = MEM[X6]
+    t20 = t19 | 720.0
+    MEM[T6] = t20
+    t21 = MEM[SOMA]
+    t22 = MEM[T6]
+    t23 = t21 - t22
+    MEM[SOMA] = t23
+    t24 = MEM[SOMA]
+    print t24

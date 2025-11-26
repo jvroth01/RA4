@@ -1,0 +1,390 @@
+{
+  "fase": "3",
+  "tabela_simbolos": {
+    "X": {
+      "tipo": "real",
+      "linha": 1
+    },
+    "SOMA": {
+      "tipo": "real",
+      "linha": 22
+    },
+    "X2": {
+      "tipo": "real",
+      "linha": 8
+    },
+    "T2": {
+      "tipo": "real",
+      "linha": 9
+    },
+    "X4": {
+      "tipo": "real",
+      "linha": 14
+    },
+    "T4": {
+      "tipo": "real",
+      "linha": 15
+    },
+    "X6": {
+      "tipo": "real",
+      "linha": 20
+    },
+    "T6": {
+      "tipo": "real",
+      "linha": 21
+    }
+  },
+  "arvores": [
+    {
+      "linha": 1,
+      "ast": {
+        "tipo": "MEM",
+        "valor": "X",
+        "tipo_dado": "real",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "LITERAL",
+            "valor": 0.5,
+            "tipo_dado": "real",
+            "operador": "",
+            "filhos": []
+          }
+        ]
+      }
+    },
+    {
+      "linha": 4,
+      "ast": {
+        "tipo": "MEM",
+        "valor": "SOMA",
+        "tipo_dado": "real",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "LITERAL",
+            "valor": 1.0,
+            "tipo_dado": "real",
+            "operador": "",
+            "filhos": []
+          }
+        ]
+      }
+    },
+    {
+      "linha": 8,
+      "ast": {
+        "tipo": "MEM",
+        "valor": "X2",
+        "tipo_dado": "real",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "BINOP",
+            "valor": null,
+            "tipo_dado": "real",
+            "operador": "*",
+            "filhos": [
+              {
+                "tipo": "ID",
+                "valor": "X",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              },
+              {
+                "tipo": "ID",
+                "valor": "X",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "linha": 9,
+      "ast": {
+        "tipo": "MEM",
+        "valor": "T2",
+        "tipo_dado": "real",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "BINOP",
+            "valor": null,
+            "tipo_dado": "real",
+            "operador": "|",
+            "filhos": [
+              {
+                "tipo": "ID",
+                "valor": "X2",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              },
+              {
+                "tipo": "LITERAL",
+                "valor": 2.0,
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "linha": 10,
+      "ast": {
+        "tipo": "MEM",
+        "valor": "SOMA",
+        "tipo_dado": "real",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "BINOP",
+            "valor": null,
+            "tipo_dado": "real",
+            "operador": "-",
+            "filhos": [
+              {
+                "tipo": "ID",
+                "valor": "SOMA",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              },
+              {
+                "tipo": "ID",
+                "valor": "T2",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "linha": 14,
+      "ast": {
+        "tipo": "MEM",
+        "valor": "X4",
+        "tipo_dado": "real",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "BINOP",
+            "valor": null,
+            "tipo_dado": "real",
+            "operador": "*",
+            "filhos": [
+              {
+                "tipo": "ID",
+                "valor": "X2",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              },
+              {
+                "tipo": "ID",
+                "valor": "X2",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "linha": 15,
+      "ast": {
+        "tipo": "MEM",
+        "valor": "T4",
+        "tipo_dado": "real",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "BINOP",
+            "valor": null,
+            "tipo_dado": "real",
+            "operador": "|",
+            "filhos": [
+              {
+                "tipo": "ID",
+                "valor": "X4",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              },
+              {
+                "tipo": "LITERAL",
+                "valor": 24.0,
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "linha": 16,
+      "ast": {
+        "tipo": "MEM",
+        "valor": "SOMA",
+        "tipo_dado": "real",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "BINOP",
+            "valor": null,
+            "tipo_dado": "real",
+            "operador": "+",
+            "filhos": [
+              {
+                "tipo": "ID",
+                "valor": "SOMA",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              },
+              {
+                "tipo": "ID",
+                "valor": "T4",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "linha": 20,
+      "ast": {
+        "tipo": "MEM",
+        "valor": "X6",
+        "tipo_dado": "real",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "BINOP",
+            "valor": null,
+            "tipo_dado": "real",
+            "operador": "*",
+            "filhos": [
+              {
+                "tipo": "ID",
+                "valor": "X4",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              },
+              {
+                "tipo": "ID",
+                "valor": "X2",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "linha": 21,
+      "ast": {
+        "tipo": "MEM",
+        "valor": "T6",
+        "tipo_dado": "real",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "BINOP",
+            "valor": null,
+            "tipo_dado": "real",
+            "operador": "|",
+            "filhos": [
+              {
+                "tipo": "ID",
+                "valor": "X6",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              },
+              {
+                "tipo": "LITERAL",
+                "valor": 720.0,
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "linha": 22,
+      "ast": {
+        "tipo": "MEM",
+        "valor": "SOMA",
+        "tipo_dado": "real",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "BINOP",
+            "valor": null,
+            "tipo_dado": "real",
+            "operador": "-",
+            "filhos": [
+              {
+                "tipo": "ID",
+                "valor": "SOMA",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              },
+              {
+                "tipo": "ID",
+                "valor": "T6",
+                "tipo_dado": "real",
+                "operador": "",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "linha": 24,
+      "ast": {
+        "tipo": "PRINT",
+        "valor": "SOMA",
+        "tipo_dado": "void",
+        "operador": "",
+        "filhos": [
+          {
+            "tipo": "ID",
+            "valor": "SOMA",
+            "tipo_dado": "real",
+            "operador": "",
+            "filhos": []
+          }
+        ]
+      }
+    }
+  ]
+}
